@@ -16,6 +16,13 @@
 
 # Assessment Using Reliability Growth Testing 
 
+RANDOM SCREENSHOTS
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/b9cac9d7-2890-486e-91f4-9807caf49538)
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/97a5c13c-3398-4fd6-b201-f11a1c87dd5c)
+
+
+
+
 # Assessment Using Reliability Demonstration Chart 
 
 # 
