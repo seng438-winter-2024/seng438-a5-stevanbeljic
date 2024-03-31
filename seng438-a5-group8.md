@@ -27,6 +27,17 @@ RANDOM SCREENSHOTS
 
 
 # Assessment Using Reliability Demonstration Chart 
+MTTFmin = 2.85
+
+MTTFmin
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/98921972/26205f3c-24ff-4389-9bbb-039b5e29544e)
+
+2 x MTTFmin
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/98921972/019896f0-67e2-4c37-b9f5-81679d4786af)
+
+0.5 x MTTFmin
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/98921972/2857860e-83ff-4e6d-a898-38df0862a260)
+
 
 # 
 
