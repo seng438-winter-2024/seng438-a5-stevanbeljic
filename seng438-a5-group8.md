@@ -17,7 +17,7 @@
 # Assessment Using Reliability Growth Testing 
 
 ## Result of model comparison (selecting top two models)
-Based on the output of CS-Frat, the two top models seem to be
+Based on the output of CS-Frat, the two top models seem to be "S" and "NB2". This is because they follow the curve of the data the best. To make a quantitative decision, we took a look at their log-likelihood values, which were the highest, meaning that they provided the best fit of data.
 
 ## Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)
 Stuff
