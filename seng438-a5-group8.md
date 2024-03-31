@@ -28,6 +28,9 @@ RANDOM SCREENSHOTS
 
 # Assessment Using Reliability Demonstration Chart 
 
+MTTFmin
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/98921972/26205f3c-24ff-4389-9bbb-039b5e29544e)
+
 # 
 
 # Comparison of Results
