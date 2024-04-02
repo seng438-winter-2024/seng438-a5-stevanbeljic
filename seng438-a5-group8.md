@@ -17,7 +17,7 @@
 # Assessment Using Reliability Growth Testing 
 
 ## Result of model comparison (selecting top two models)
-Based on the output of CS-Frat, the two top models seem to be "S" and "NB2". This is because they follow the curve of the data the best. To make a quantitative decision, we took a look at their log-likelihood values, which were the highest, meaning that they provided the best fit of data.
+Based on the output of CS-Frat, the two top models seem to be S Distribution and Negative Binomial (Order 2). This is because they follow the curve of the data the best. To make a quantitative decision, we took a look at their log-likelihood values, which were the highest, meaning that they provided the best fit of data.
 
 ## Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)
 Stuff
@@ -53,7 +53,7 @@ MTTFmin
 ![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/98921972/2857860e-83ff-4e6d-a898-38df0862a260)
 
 ## Explain your evaluation and justification of how you decide the MTTFmin
-Stuff
+We chose the value of MTTFmin to be 2.85 because that value is where the failure data is right on the boundary between the "Accept" and "Continue" regions. The MTTFmin value has to be at least 2.85 in order for the system to be considered as acceptable to be released and a lower value than that would indicate that the system would need more testing to make its MTTF greater.
 
 ## A discussion on the advantages and disadvantages of RDC
 Stuff
