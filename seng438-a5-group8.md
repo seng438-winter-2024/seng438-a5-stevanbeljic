@@ -106,7 +106,14 @@ Reliability growth testing plotted failure data across time intervals, providing
 RDC gives a static view of the relaibility using the MTTFmin value as a comparison benchmark. The RDC value showed visually if the SUT's failure data fell within the acceptable range with the MTTFmin value as the threshold.
 
 # Discussion on Similarity and Differences of the Two Techniques
-Stuff
+Similarities
+- The same system was being tested using both methods.
+- Failure times and target failure rate (MTTF) are the foundation of both methods.
+- Both methods used the same failure dataset as their input.
+
+Differences
+- RDC solely employs inter-failure times, whereas the reliability growth analysis technique, uses failure count in addition to inter-failure times.
+- In order to create distinct graphs on the system's reliability, the two approaches used different interpretations of the data.
 
 # How the team work/effort was divided and managed
 Everything was done togehter, both parts 1 and 2, and notes were taken by others as one person conducted the work while sharing their screen with the rest of us. Screenshots were also taken during this call, and notes of their importance were made so that they could be used in the report later. Afterwards, we all seperately worked on the report, each taking sections as we got to them.
