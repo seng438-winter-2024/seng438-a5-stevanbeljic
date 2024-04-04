@@ -126,6 +126,6 @@ Stevan Beljic: This lab was very confusing and difficult to execute. A lot of th
 
 Aaron Giang:
 
-Angelo Troncone:
+Angelo Troncone: I think the intention of this lab was very good; trying to get us to think about failure data and allowing us to experiment with different ways of transforming it to make conclusions about the reliability of a system. I did find however, that the instructions were vague; it was not clear as to how certain things had to be done in the provided software, leading to confusion and experimenting around with the programs and the input data formats. I also found the ammount of folders and data files to be very overwhelming; I think only having around 10 files, each with a different trend that would fit models differently would have been less confusing, and would have allowed us to more easily play around with the models.
 
 Rutvi Brahmbhatt:
