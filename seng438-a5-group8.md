@@ -25,7 +25,12 @@ We compared the following models in C-SFRAT to determine which trended most corr
 - Discrete Weibull Type III
 - Geometric
 - Negaive Binomial (Order 2) <- (one of top two)
-- Truncated Logistic
+- Truncated Logistic<br><br>
+
+The failure data we used was ```DATASET4.DAT``` within the failure count reports. The original failure and model reliability plot is demonstrated in the chart below, plotting all 8 models atop our failure data.
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/feb198a3-9f28-4592-b20b-6a0582666951)
+<br>
+<br>
 
 
 Using the model comparison tab, we determined the two strongest/most accurate models were S distribution (S) and Negative Binomial Order 2 (NB2) because those two models have the highest Critic values (with values of 1.000), meaning they match up most accurately with the failure data provided. Purely from a visual perspective as well, the two plots of S and NB2 match the data set 4 failure data more accurately than any other model.<br>
@@ -35,18 +40,34 @@ And the plots of the two most representative models (S and NB2), along with the 
 ![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/fde201fc-fd6b-40ea-8e72-0e101b9ec4f7)
 
 ## Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)
-Stuff
+The range of useful data was selected visually, since SRTAT nor CASRE would work for us. Nontheless, we determined the subset of useable range for the data to be the entire data itself, since there were no significant outlying points and the failure growth rate seemed to follow a consistent trend of slowly tapering off with increasing time intervals. This is evidenced in the plot provided below.<br>
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/d430e306-fc89-4e6a-983f-fb056fa9f277)<br>
+<br>
+As can be seen here, the plots begin to even out at ~interval 45, which is 13 time intervals predicted. Since there are our two most accurate models and they follow a similar trendline, we deduced that including all time intervals (0-32) was an accurate range to proceed with.
 
 ## Plots for failure rate and reliability of the SUT for the test data provided
-The failure data we used was ``DATASET4.DAT`` within the failure count reports. The original failure and model reliability plot is demonstrated in the chart below, plotting all 8 models atop our failure data.
-![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/feb198a3-9f28-4592-b20b-6a0582666951)
+
+### Reliability Graph
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/4abd619c-559c-43a3-96b0-6c62fe81b9d7)<br>
+
+### MVF Graph
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/ca3ffcdc-f355-40c9-841f-630442df474b)<br>
+
+### Failure Intensity Graph
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/9a2cb6a2-269e-4b9b-bf13-b15c149a3e83)<br>
+
 
 ## A discussion on decision making given a target failure rate
-Stuff
+A target failure rate is given by the formula MTTF (mean time to failure) = total operating time / total number of failures. Given we have 32 time intervals, and at time 32 we experience 211 failures, the MTTF can be deduced to be 32/211, or 0.152, meaning we should experience a failure every 0.152 time intervals, or 6.58 failures per time interval. This lines up fairly well with the failure intensity target used in the intensity graph of the previous section. 
 
 ## A discussion on the advantages and disadvantages of reliability growth analysis
-Stuff
+Advantages:
+- Helps bring logic to failure data by defining the amount randomness behind reported data, and if it can be modelled to follow any trends
+- Informs decision making by allowing the predicition of future trends, both through model predictions and by analysis of past trends
 
+Disadvantages:
+- It is dependent on failure data being accurate, or even reported at all
+- It is a very complex and difficult to understand process, so its results may not be fruitful without the necessary background knowledge to understand what the models are depicting
 
 # Assessment Using Reliability Demonstration Chart 
 
