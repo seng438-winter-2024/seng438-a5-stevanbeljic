@@ -74,26 +74,36 @@ Disadvantages:
 ## 3 plots for MTTFmin, twice and half of it for your test data
 MTTFmin = 2.85
 
-MTTFmin
+MTTFmin (2.85 Failures per second)
 <br></br>
-![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/98921972/26205f3c-24ff-4389-9bbb-039b5e29544e)
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/2e2c5ac2-c3dc-4a90-91ea-4fa2db9bbe65)
 <br></br>
-2 x MTTFmin
+2 x MTTFmin (5.70 Failues per second)
 <br></br>
-![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/98921972/019896f0-67e2-4c37-b9f5-81679d4786af)
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/844f9feb-723b-4f36-a42c-be03831e3c5c)
 <br></br>
-0.5 x MTTFmin
+0.5 x MTTFmin (1.425 Failures per second)
 <br></br>
-![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/98921972/2857860e-83ff-4e6d-a898-38df0862a260)
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/5c48fc1d-772a-4dee-bc70-1228e28cf50e)
 
 ## Explain your evaluation and justification of how you decide the MTTFmin
 We chose the value of MTTFmin to be 2.85 because that value is where the failure data is right on the boundary between the "Accept" and "Continue" regions. The MTTFmin value has to be at least 2.85 in order for the system to be considered as acceptable to be released and a lower value than that would indicate that the system would need more testing to make its MTTF greater.
 
 ## A discussion on the advantages and disadvantages of RDC
-Stuff
+Advantages
+- Very clear visual depcition of whether the SUT meets the failure targets or not
+- Allows for the considerations of multiple risk factors, such as customer risk or developer risk
+
+Disadvantages
+- Similar to reliability growth testing, relies on accurate data to be reported or reported at all
+- The test uses complex statistical formulas to formulate its acceptance and rejection rate, therefore may provide a sense of false security as a tester may not truly understand the statistics at play in the computation and determination of acceptance
 
 # Comparison of Results
-Stuff
+For the SUT, the computed MTTF for the reliability growth testing was 6.58 failures per second, while using RDC it was 2.85 failures per second.
+
+Reliability growth testing plotted failure data across time intervals, providing a more dynamic view of the system's reliability over a given time period. It allowed for the observation of trends and models that can predict future trends, indicating improvement in reliability if the trend line flattened out.
+
+RDC gives a static view of the relaibility using the MTTFmin value as a comparison benchmark. The RDC value showed visually if the SUT's failure data fell within the acceptable range with the MTTFmin value as the threshold.
 
 # Discussion on Similarity and Differences of the Two Techniques
 Stuff
