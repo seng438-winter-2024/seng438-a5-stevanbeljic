@@ -17,18 +17,28 @@ The goal of this assignment was to use reliability assessment tools such as C-SF
 # Assessment Using Reliability Growth Testing 
 
 ## Result of model comparison (selecting top two models)
-Based on the output of CS-Frat, the two top models seem to be S Distribution and Negative Binomial (Order 2). This is because they follow the curve of the data the best. To make a quantitative decision, we took a look at their log-likelihood values, which were the highest, meaning that they provided the best fit of data.
+We compared the following models in C-SFRAT to determine which trended most correspondingly with our input failure data from ```DATASET4.DAT``` within failure count reports:
+- IFR Salvia & Bollinger
+- IFR generalized Salvia & Bollinger
+- S Distribution <- (one of the top two)
+- Discrete Weibull Order 2
+- Discrete Weibull Type III
+- Geometric
+- Negaive Binomial (Order 2) <- (one of top two)
+- Truncated Logistic
+
+
+Using the model comparison tab, we determined the two strongest/most accurate models were S distribution (S) and Negative Binomial Order 2 (NB2) because those two models have the highest Critic values (with values of 1.000), meaning they match up most accurately with the failure data provided. Purely from a visual perspective as well, the two plots of S and NB2 match the data set 4 failure data more accurately than any other model.<br>
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/79d9d5bb-7e80-4eb5-96f7-c3dfa116c9e9)
+<br>
+And the plots of the two most representative models (S and NB2), along with the original failure plot, are demonstrated below.<br>
+![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/fde201fc-fd6b-40ea-8e72-0e101b9ec4f7)
 
 ## Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)
 Stuff
 
 ## Plots for failure rate and reliability of the SUT for the test data provided
 The failure data we used was ``DATASET4.DAT`` within the failure count reports. The original failure and model reliability plot is demonstrated in the chart below, plotting all 8 models atop our failure data.
-![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/fde201fc-fd6b-40ea-8e72-0e101b9ec4f7)
-
-Using the model comparison tab, we determined the two strongest/most accurate models were S and NB2 because those two models have the highest Critic values (with values of 1.000), meaning they match up most accurately with the failure data provided.
-![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/79d9d5bb-7e80-4eb5-96f7-c3dfa116c9e9)
-<br>
 ![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/feb198a3-9f28-4592-b20b-6a0582666951)
 
 ## A discussion on decision making given a target failure rate
