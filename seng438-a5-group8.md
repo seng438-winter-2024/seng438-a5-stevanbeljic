@@ -74,15 +74,15 @@ Disadvantages:
 ## 3 plots for MTTFmin, twice and half of it for your test data
 MTTFmin = 2.85
 
-MTTFmin (2.85 Failures per second)
+### MTTFmin (2.85 Failures per second)
 <br></br>
 ![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/2e2c5ac2-c3dc-4a90-91ea-4fa2db9bbe65)
 <br></br>
-2 x MTTFmin (5.70 Failues per second)
+### 2 x MTTFmin (5.70 Failues per second)
 <br></br>
 ![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/844f9feb-723b-4f36-a42c-be03831e3c5c)
 <br></br>
-0.5 x MTTFmin (1.425 Failures per second)
+### 0.5 x MTTFmin (1.425 Failures per second)
 <br></br>
 ![image](https://github.com/seng438-winter-2024/seng438-a5-stevanbeljic/assets/60798649/5c48fc1d-772a-4dee-bc70-1228e28cf50e)
 
@@ -109,13 +109,13 @@ RDC gives a static view of the relaibility using the MTTFmin value as a comparis
 Stuff
 
 # How the team work/effort was divided and managed
-Stuff
+Everything was done togehter, both parts 1 and 2, and notes were taken by others as one person conducted the work while sharing their screen with the rest of us. Screenshots were also taken during this call, and notes of their importance were made so that they could be used in the report later. Afterwards, we all seperately worked on the report, each taking sections as we got to them.
 
 # Difficulties encountered, challenges overcome, and lessons learned
-Stuff
+A big difficulty was encountered in getting some of the software to even work, such as SFRAT or CASRE which simply would not run or install for any of us. Once we did get some working, the documentation for them (such as C-SFRAT) was somewhat lacking, and it was difficult to learn how to produce certain plots or prediction trends. Nontheless, through trial and error, we were eventually able to complete the lab by using alternative softwares, and then playing around in them to get more understanding as to how to generate models, predictions, and model comparison charts.
 
 # Comments/feedback on the lab itself
-Stevan Beljic:
+Stevan Beljic: This lab was very confusing and difficult to execute. A lot of the outlined software simply did not work for me, and if it did it was difficult to use because documentation was so poor. Instructions were also quite unclear 
 
 Aaron Giang:
 
