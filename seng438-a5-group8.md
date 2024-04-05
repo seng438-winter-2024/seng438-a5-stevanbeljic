@@ -11,7 +11,7 @@
 |        Rutvi Brahmbhatt             |
 
 # Introduction
-The goal of this assignment was to use reliability assessment tools such as C-SFRAT (the one we used), SRTAT, and a reliability demonstration chart (RDC) within Excel, to assess the the accuracy and predictability of failure reports. We are to use reliability growth testing software to measure failure rate, mean time between failures (MTTF), and familiarize ourselvs with the usage of such tools. We are then to use an RDC to determine adequacy of the computed MTTF of the SUT.
+The goal of this assignment was to use reliability assessment tools such as C-SFRAT (the one we used), SRTAT, and a reliability demonstration chart (RDC) within SRTAT, to assess the the accuracy and predictability of failure reports. We are to use reliability growth testing software to measure failure rate, mean time between failures (MTTF), and familiarize ourselvs with the usage of such tools. We are then to use an RDC to determine adequacy of the computed MTTF of the SUT.
 # 
 
 # Assessment Using Reliability Growth Testing 
