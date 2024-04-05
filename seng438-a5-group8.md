@@ -99,7 +99,7 @@ Disadvantages
 - The test uses complex statistical formulas to formulate its acceptance and rejection rate, therefore may provide a sense of false security as a tester may not truly understand the statistics at play in the computation and determination of acceptance
 
 # Comparison of Results
-For the SUT, the computed MTTF for the reliability growth testing was 6.58 failures per second, while using RDC it was 2.85 failures per second.
+For the SUT, the computed MTTF for the reliability growth testing was 0.152 time intervals to failure, while using RDC it was 2.85.
 
 Reliability growth testing plotted failure data across time intervals, providing a more dynamic view of the system's reliability over a given time period. It allowed for the observation of trends and models that can predict future trends, indicating improvement in reliability if the trend line flattened out.
 
